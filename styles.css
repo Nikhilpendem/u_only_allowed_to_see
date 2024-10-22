@@ -1,0 +1,52 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the container's width */
+    width: 90%; /* Make it responsive */
+}
+
+.headline {
+    font-size: 2.5rem;
+    color: #e91e63;
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px;
+    transition: background-color 0.3s; /* Add a transition for smooth effect */
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+
+.hidden {
+    display: none;
+}
+
+#emotionImage {
+    margin-top: 20px;
+    width: 100%; /* Make the image responsive */
+    max-width: 150px; /* Set a max width */
+    border-radius: 10px;
+}
